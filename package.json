@@ -3,11 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@progress/kendo-data-query": "^1.6.0",
+    "@progress/kendo-drawing": "^1.17.1",
+    "@progress/kendo-licensing": "^1.2.2",
+    "@progress/kendo-react-animation": "^5.8.0",
+    "@progress/kendo-react-buttons": "^5.8.0",
+    "@progress/kendo-react-data-tools": "^5.8.0",
+    "@progress/kendo-react-dateinputs": "^5.8.0",
+    "@progress/kendo-react-dropdowns": "^5.8.0",
+    "@progress/kendo-react-grid": "^5.8.0",
+    "@progress/kendo-react-inputs": "^5.8.0",
+    "@progress/kendo-react-intl": "^5.8.0",
+    "@progress/kendo-react-treeview": "^5.8.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.2",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-datepicker": "^4.8.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -34,5 +50,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8"
   }
 }
