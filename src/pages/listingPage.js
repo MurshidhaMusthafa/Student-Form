@@ -19,7 +19,11 @@ function ListingPage() {
       <div className="relative">
         <div>
           <Header />
-          <StudentForm showModal={show} closeModal={handleClose} />
+          <StudentForm 
+          showModal={show} 
+          closeModal={handleClose}
+
+           />
         </div>
         <Button
           variant="primary"
